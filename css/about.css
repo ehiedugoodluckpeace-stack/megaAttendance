@@ -1,0 +1,44 @@
+@import url('/css/config.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font), var(--secondary-font);
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+.container {
+    width: 100%;
+    padding: 1.25rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 1.875rem;
+}
+
+p {
+    margin-bottom: 0.9375rem;
+}
+
+.features {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.feature-card {
+    padding: 0.9375rem;
+    border-left: 0.3125rem solid var(--primary-color);
+}
